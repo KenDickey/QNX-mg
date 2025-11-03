@@ -34,11 +34,11 @@ LD = $(CC)
 
 #INCLUDES += -I/path/to/my/lib/include
 #INCLUDES += -I../mylib/public
-INCLUDES += -I/home/$USER/qnx800/target/qnx/usr/include
+INCLUDES += -I$(HOME)/qnx800/target/qnx/usr/include
 
 #LIBS += -L/path/to/my/lib/$(PLATFORM)/usr/lib -lmylib
 #LIBS += -L../mylib/$(OUTPUT_DIR) -lmylib
-LDFLAGS += -L/home/$USER/qnx800/target/qnx/$PLATFORM/lib -L/home/$USER/qnx800/target/qnx/$PLATFORM/usr/lib
+LDFLAGS += -L$(HOME)/qnx800/target/qnx/$PLATFORM/lib -L$(HOME)/qnx800/target/qnx/$PLATFORM/usr/lib
 LIBS += -lqnxterm -lncurses -lregex -lsocket
 
 #Compiler flags for build profiles
