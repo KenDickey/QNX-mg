@@ -1,5 +1,5 @@
 # QNX-mg
-Lightweight port of the Micro-Gnu ("mg") text editor to QNX 8.0
+Lightweight port of the `mg` (a.k.a. Micro-GNU) text editor to QNX 8.0
 
 Visual Studio Project with QNX plugin.
 
